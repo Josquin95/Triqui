@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Ventana</class>
+    <widget class="QWidget" name="Ventana">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>500</width>
+                <height>320</height>
+            </rect>
+        </property>
+        <property name="cursor">
+            <cursorShape>OpenHandCursor</cursorShape>
+        </property>
+        <property name="windowTitle">
+            <string>Triqui</string>
+        </property>
+        <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 255, 255);</string>
+        </property>
+        <widget class="QPushButton" name="b0">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>10</y>
+                    <width>100</width>
+                    <height>100</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>60</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+                    backgrouNd-color: #0E7AC4;
+                </string>
+            </property>
+            <property name="text">
+                <string/>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="b3">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>110</y>
+                    <width>100</width>
+                    <height>100</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>60</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+                    backgrouNd-color: #0E7AC4;
+                </string>
+            </property>
+            <property name="text">
+                <string/>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="b6">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>210</y>
+                    <width>100</width>
+                    <height>100</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>60</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+                    backgrouNd-color: #0E7AC4;
+                </string>
+            </property>
+            <property name="text">
+                <string/>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="b1">
+            <property name="geometry">
+                <rect>
+                    <x>110</x>
+                    <y>10</y>
+                    <width>100</width>
+                    <height>100</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>60</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+                    backgrouNd-color: #0E7AC4;
+                </string>
+            </property>
+            <property name="text">
+                <string/>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="b4">
+            <property name="geometry">
+                <rect>
+                    <x>110</x>
+                    <y>110</y>
+                    <width>100</width>
+                    <height>100</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>60</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+                    backgrouNd-color: #0E7AC4;
+                </string>
+            </property>
+            <property name="text">
+                <string/>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="b7">
+            <property name="geometry">
+                <rect>
+                    <x>110</x>
+                    <y>210</y>
+                    <width>100</width>
+                    <height>100</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>60</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+                    backgrouNd-color: #0E7AC4;
+                </string>
+            </property>
+            <property name="text">
+                <string/>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="b2">
+            <property name="geometry">
+                <rect>
+                    <x>210</x>
+                    <y>10</y>
+                    <width>100</width>
+                    <height>100</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>60</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+                    backgrouNd-color: #0E7AC4;
+                </string>
+            </property>
+            <property name="text">
+                <string/>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="b5">
+            <property name="geometry">
+                <rect>
+                    <x>210</x>
+                    <y>110</y>
+                    <width>100</width>
+                    <height>100</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>60</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+                    backgrouNd-color: #0E7AC4;
+                </string>
+            </property>
+            <property name="text">
+                <string/>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="b8">
+            <property name="geometry">
+                <rect>
+                    <x>210</x>
+                    <y>210</y>
+                    <width>100</width>
+                    <height>100</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>60</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);
+                    backgrouNd-color: #0E7AC4;
+                </string>
+            </property>
+            <property name="text">
+                <string/>
+            </property>
+        </widget>
+        <widget class="QLabel" name="ePuntaje">
+            <property name="geometry">
+                <rect>
+                    <x>360</x>
+                    <y>30</y>
+                    <width>101</width>
+                    <height>21</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <family>Comic Sans MS</family>
+                    <pointsize>14</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="text">
+                <string>PUNTAJE</string>
+            </property>
+        </widget>
+        <widget class="QLabel" name="eMaquina">
+            <property name="geometry">
+                <rect>
+                    <x>330</x>
+                    <y>80</y>
+                    <width>51</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>9</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(226, 0, 0);</string>
+            </property>
+            <property name="text">
+                <string>Maquina</string>
+            </property>
+        </widget>
+        <widget class="QLabel" name="eEmpates">
+            <property name="geometry">
+                <rect>
+                    <x>330</x>
+                    <y>140</y>
+                    <width>47</width>
+                    <height>13</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>9</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(226, 0, 0);</string>
+            </property>
+            <property name="text">
+                <string>Empates</string>
+            </property>
+        </widget>
+        <widget class="QLabel" name="eJugador">
+            <property name="geometry">
+                <rect>
+                    <x>330</x>
+                    <y>200</y>
+                    <width>51</width>
+                    <height>16</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <pointsize>9</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">color: rgb(226, 0, 0);</string>
+            </property>
+            <property name="text">
+                <string>Jugador</string>
+            </property>
+        </widget>
+        <widget class="QLineEdit" name="lMaquina">
+            <property name="enabled">
+                <bool>false</bool>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>390</x>
+                    <y>80</y>
+                    <width>51</width>
+                    <height>25</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>0</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+        </widget>
+        <widget class="QLineEdit" name="lEmpate">
+            <property name="enabled">
+                <bool>false</bool>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>390</x>
+                    <y>140</y>
+                    <width>51</width>
+                    <height>25</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>0</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+        </widget>
+        <widget class="QLineEdit" name="lJugador">
+            <property name="enabled">
+                <bool>false</bool>
+            </property>
+            <property name="geometry">
+                <rect>
+                    <x>390</x>
+                    <y>200</y>
+                    <width>51</width>
+                    <height>25</height>
+                </rect>
+            </property>
+            <property name="text">
+                <string>0</string>
+            </property>
+            <property name="alignment">
+                <set>Qt::AlignCenter</set>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="bReiniciar">
+            <property name="geometry">
+                <rect>
+                    <x>360</x>
+                    <y>270</y>
+                    <width>75</width>
+                    <height>23</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                </font>
+            </property>
+            <property name="text">
+                <string>Reiniciar</string>
+            </property>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
