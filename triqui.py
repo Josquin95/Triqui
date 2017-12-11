@@ -3,7 +3,8 @@
 # Form implementation generated from reading ui file 'Triqui.ui'
 #
 # Created by: PyQt5 UI code generator 5.9.2
-#
+# Autor: Jose Luis Osorio Quintero
+# Source: Decode.la
 # WARNING! All changes made in this file will be lost!
 
 from random import randrange
